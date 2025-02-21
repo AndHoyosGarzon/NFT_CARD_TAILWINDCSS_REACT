@@ -6,7 +6,7 @@ const Card = () => {
     >
       <img
         className="w-[340px] h-[300px] rounded-lg mb-6"
-        src="../../assets/images/imageEquilibrium.jpg"
+        src="/images/imageEquilibrium.jpg"
         alt="image_card"
       />
 
@@ -23,7 +23,7 @@ const Card = () => {
             <p className=" text-Cyan font-semibold flex items-center">
               <img
                 className="w-[15px] h-[15px]"
-                src="../../assets/images/icon-ethereum.svg"
+                src="/images/icon-ethereum.svg"
                 alt="clock"
               />
               <span className="ml-1">0.041ETH</span>
@@ -31,7 +31,7 @@ const Card = () => {
             <p className="text-Soft-blue flex items-center">
               <img
                 className="w-[15px] h-[15px]"
-                src="../../assets/images/icon-clock.svg"
+                src="/images/icon-clock.svg"
                 alt="clock"
               />
               <span className="ml-1">3 days left</span>
@@ -43,7 +43,7 @@ const Card = () => {
 
         <div className="flex  items-center">
           <div className="w-[30px] h-[30px] rounded-full overflow-hidden mr-4">
-            <img src="../../assets/images/image-avatar.png" alt="avatar" />
+            <img src="/images/image-avatar.png" alt="avatar" />
           </div>
           <p className="text-sm">
             <span className="text-Soft-blue">Creation of </span>
